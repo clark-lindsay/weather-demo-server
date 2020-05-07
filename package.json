@@ -2,7 +2,7 @@
   "name": "weather-server",
   "version": "1.0.0",
   "description": "A small Express server for use with my demo iOS weather application",
-  "main": "server.ts",
+  "main": "src/server.ts",
   "author": "clarklindsay96@gmail.com (Clark Lindsay)",
   "license": "MIT",
   "private": false,
