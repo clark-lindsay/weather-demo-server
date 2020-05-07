@@ -1,0 +1,30 @@
+{
+	"Arvada,CO": {
+		"name": "Arvada,CO",
+		"currentTemperature": 67
+	},
+	"Detroit,MI": {
+		"name": "Detroit,MI",
+		"currentTemperature": 64
+	},
+	"NewYork,NY": {
+		"name": "NewYork,NY",
+		"currentTemperature": 63
+	},
+	"Reykjavik,Iceland": {
+		"name": "Reykjavik,Iceland",
+		"currentTemperature": 43
+	},
+	"London,UnitedKingdom": {
+		"name": "London,UK",
+		"currentTemperature": 71
+	},
+	"Tokyo,Japan": {
+		"name": "Tokyo,Japan",
+		"currentTemperature": 55
+	},
+	"Paris,France": {
+		"name": "Paris,France",
+		"currentTemperature": 71
+	}
+}
