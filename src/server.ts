@@ -12,16 +12,20 @@ app.get("/", (_, res) => {
 
 app.get("/weather/location/:name", (req, res) => {
   fs.readFile(
-    `${__dirname}/data/locations.json`,
+    `${__dirname}/../data/locations.json`,
     "utf8",
     (error, data: string) => {
       if (!error) {
         res.send(JSON.parse(data)[req.params.name]);
-      }
-      console.error(
-        `There was an error processing your request. Did you spell the location correctly?\n
+        console.log(
+          `Successful request for weather data from ${req.params.name}`
+        );
+      } else {
+        console.error(
+          `There was an error processing your request. Did you spell the location correctly?\n
       Error: ${error}`
-      );
+        );
+      }
     }
   );
 });
