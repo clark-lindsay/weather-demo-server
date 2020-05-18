@@ -1,30 +1,224 @@
 {
-	"Arvada,CO": {
-		"name": "Arvada,CO",
-		"currentTemperature": 67
-	},
-	"Detroit,MI": {
-		"name": "Detroit,MI",
-		"currentTemperature": 64
-	},
-	"NewYork,NY": {
-		"name": "NewYork,NY",
-		"currentTemperature": 63
-	},
-	"Reykjavik,Iceland": {
-		"name": "Reykjavik,Iceland",
-		"currentTemperature": 43
-	},
-	"London,UnitedKingdom": {
-		"name": "London,UK",
-		"currentTemperature": 71
-	},
-	"Tokyo,Japan": {
-		"name": "Tokyo,Japan",
-		"currentTemperature": 55
-	},
-	"Paris,France": {
-		"name": "Paris,France",
-		"currentTemperature": 71
-	}
+  "Arvada,CO": {
+    "name": "Arvada,CO",
+    "currentTemperature": 67,
+    "forecasts": [
+      {
+        "day": "Tuesday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Sunny"
+      },
+      {
+        "day": "Wednesday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Cloudy"
+      },
+      {
+        "day": "Thursday",
+        "high": 65,
+        "low": 52,
+        "text": "Thunderstorms"
+      },
+      {
+        "day": "Friday",
+        "high": 65,
+        "low": 52,
+        "text": "Clear"
+      },
+      {
+        "day": "Saturday",
+        "high": 65,
+        "low": 52,
+        "text": "Clear"
+      },
+      {
+        "day": "Sunday",
+        "high": 65,
+        "low": 52,
+        "text": "Partly Sunny"
+      }
+    ]
+  },
+  "Detroit,MI": {
+    "name": "Detroit,MI",
+    "currentTemperature": 64,
+    "forecasts": [
+      {
+        "day": "Tuesday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Sunny"
+      },
+      {
+        "day": "Wednesday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Sunny"
+      },
+      {
+        "day": "Thursday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Sunny"
+      },
+      {
+        "day": "Friday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Sunny"
+      }
+    ]
+  },
+  "NewYork,NY": {
+    "name": "NewYork,NY",
+    "currentTemperature": 63,
+    "forecasts": [
+      {
+        "day": "Tuesday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Sunny"
+      },
+      {
+        "day": "Wednesday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Sunny"
+      },
+      {
+        "day": "Thursday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Sunny"
+      },
+      {
+        "day": "Friday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Sunny"
+      }
+    ]
+  },
+  "Reykjavik,Iceland": {
+    "name": "Reykjavik,Iceland",
+    "currentTemperature": 43,
+    "forecasts": [
+      {
+        "day": "Tuesday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Sunny"
+      },
+      {
+        "day": "Wednesday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Sunny"
+      },
+      {
+        "day": "Thursday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Sunny"
+      },
+      {
+        "day": "Friday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Sunny"
+      }
+    ]
+  },
+  "London,UnitedKingdom": {
+    "name": "London,UK",
+    "currentTemperature": 71,
+    "forecasts": [
+      {
+        "day": "Tuesday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Sunny"
+      },
+      {
+        "day": "Wednesday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Sunny"
+      },
+      {
+        "day": "Thursday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Sunny"
+      },
+      {
+        "day": "Friday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Sunny"
+      }
+    ]
+  },
+  "Tokyo,Japan": {
+    "name": "Tokyo,Japan",
+    "currentTemperature": 55,
+    "forecasts": [
+      {
+        "day": "Tuesday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Sunny"
+      },
+      {
+        "day": "Wednesday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Sunny"
+      },
+      {
+        "day": "Thursday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Sunny"
+      },
+      {
+        "day": "Friday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Sunny"
+      }
+    ]
+  },
+  "Paris,France": {
+    "name": "Paris,France",
+    "currentTemperature": 71,
+    "forecasts": [
+      {
+        "day": "Tuesday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Sunny"
+      },
+      {
+        "day": "Wednesday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Sunny"
+      },
+      {
+        "day": "Thursday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Sunny"
+      },
+      {
+        "day": "Friday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Sunny"
+      }
+    ]
+  }
 }

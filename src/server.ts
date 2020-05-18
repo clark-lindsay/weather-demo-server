@@ -16,7 +16,7 @@ app.get("/weather/location/:name", (req, res) => {
     "utf8",
     (error, data: string) => {
       if (!error) {
-        res.send(JSON.parse(data)[req.params.name]);
+        setTimeout(() => res.send(JSON.parse(data)[req.params.name]), 2000);
         console.log(
           `Successful request for weather data from ${req.params.name}`
         );
