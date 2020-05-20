@@ -16,15 +16,16 @@ app.get("/weather/location/:name", (req, res) => {
     "utf8",
     (error, data: string) => {
       if (!error) {
-        setTimeout(() => res.send(JSON.parse(data)[req.params.name]), 2000);
-        console.log(
-          `Successful request for weather data from ${req.params.name}`
-        );
+        const decodedName = decodeURI(req.params.name);
+        console.log(`Request for weather data from ${decodedName}`);
+        const weatherData = JSON.parse(data)[decodedName];
+        if (weatherData) {
+          setTimeout(() => res.send(JSON.parse(data)[req.params.name]), 2000);
+        } else {
+          defaultErrorStatement(Error("No data found with that location key."));
+        }
       } else {
-        console.error(
-          `There was an error processing your request. Did you spell the location correctly?\n
-      Error: ${error}`
-        );
+        defaultErrorStatement(error);
       }
     }
   );
@@ -33,3 +34,7 @@ app.get("/weather/location/:name", (req, res) => {
 app.listen(3000, () => {
   console.log("Server listening at http://localhost:3000");
 });
+
+function defaultErrorStatement(error: Error) {
+  console.error(`There was an error processing your request.\n ${error}`);
+}

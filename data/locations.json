@@ -1,6 +1,6 @@
 {
-  "Arvada,CO": {
-    "name": "Arvada,CO",
+  "Arvada, CO": {
+    "name": "Arvada, CO",
     "currentTemperature": 67,
     "forecasts": [
       {
@@ -41,8 +41,50 @@
       }
     ]
   },
-  "Detroit,MI": {
-    "name": "Detroit,MI",
+  "San Francisco, CA": {
+    "name": "San, Francisco, CA",
+    "currentTemperature": 67,
+    "forecasts": [
+      {
+        "day": "Tuesday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Sunny"
+      },
+      {
+        "day": "Wednesday",
+        "high": 65,
+        "low": 52,
+        "text": "Mostly Cloudy"
+      },
+      {
+        "day": "Thursday",
+        "high": 65,
+        "low": 52,
+        "text": "Thunderstorms"
+      },
+      {
+        "day": "Friday",
+        "high": 65,
+        "low": 52,
+        "text": "Clear"
+      },
+      {
+        "day": "Saturday",
+        "high": 65,
+        "low": 52,
+        "text": "Clear"
+      },
+      {
+        "day": "Sunday",
+        "high": 65,
+        "low": 52,
+        "text": "Partly Sunny"
+      }
+    ]
+  },
+  "Detroit, MI": {
+    "name": "Detroit, MI",
     "currentTemperature": 64,
     "forecasts": [
       {
@@ -71,8 +113,8 @@
       }
     ]
   },
-  "NewYork,NY": {
-    "name": "NewYork,NY",
+  "New York, NY": {
+    "name": "New York, NY",
     "currentTemperature": 63,
     "forecasts": [
       {
@@ -101,8 +143,8 @@
       }
     ]
   },
-  "Reykjavik,Iceland": {
-    "name": "Reykjavik,Iceland",
+  "Reykjavik, Iceland": {
+    "name": "Reykjavik, Iceland",
     "currentTemperature": 43,
     "forecasts": [
       {
@@ -131,8 +173,8 @@
       }
     ]
   },
-  "London,UnitedKingdom": {
-    "name": "London,UK",
+  "London, United Kingdom": {
+    "name": "London, UK",
     "currentTemperature": 71,
     "forecasts": [
       {
@@ -161,8 +203,8 @@
       }
     ]
   },
-  "Tokyo,Japan": {
-    "name": "Tokyo,Japan",
+  "Tokyo, Japan": {
+    "name": "Tokyo, Japan",
     "currentTemperature": 55,
     "forecasts": [
       {
@@ -191,8 +233,8 @@
       }
     ]
   },
-  "Paris,France": {
-    "name": "Paris,France",
+  "Paris, France": {
+    "name": "Paris, France",
     "currentTemperature": 71,
     "forecasts": [
       {
