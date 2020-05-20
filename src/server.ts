@@ -17,10 +17,17 @@ app.get("/weather/location/:name", (req, res) => {
     (error, data: string) => {
       if (!error) {
         const decodedName = decodeURI(req.params.name);
-        console.log(`Request for weather data from ${decodedName}`);
-        const weatherData = JSON.parse(data)[decodedName];
+        const locationWithoutWhitespace = decodedName.replace(/\s/g, "");
+
+        console.log(
+          `Request for weather data from ${locationWithoutWhitespace}`
+        );
+        const weatherData = JSON.parse(data)[locationWithoutWhitespace];
         if (weatherData) {
-          setTimeout(() => res.send(JSON.parse(data)[req.params.name]), 2000);
+          setTimeout(
+            () => res.send(JSON.parse(data)[locationWithoutWhitespace]),
+            2000
+          );
         } else {
           defaultErrorStatement(Error("No data found with that location key."));
         }

@@ -1,5 +1,5 @@
 {
-  "Arvada, CO": {
+  "Arvada,CO": {
     "name": "Arvada, CO",
     "currentTemperature": 67,
     "forecasts": [
@@ -41,7 +41,7 @@
       }
     ]
   },
-  "San Francisco, CA": {
+  "SanFrancisco,CA": {
     "name": "San, Francisco, CA",
     "currentTemperature": 67,
     "forecasts": [
@@ -83,7 +83,7 @@
       }
     ]
   },
-  "Detroit, MI": {
+  "Detroit,MI": {
     "name": "Detroit, MI",
     "currentTemperature": 64,
     "forecasts": [
@@ -113,7 +113,7 @@
       }
     ]
   },
-  "New York, NY": {
+  "NewYork,NY": {
     "name": "New York, NY",
     "currentTemperature": 63,
     "forecasts": [
@@ -143,7 +143,7 @@
       }
     ]
   },
-  "Reykjavik, Iceland": {
+  "Reykjavik,Iceland": {
     "name": "Reykjavik, Iceland",
     "currentTemperature": 43,
     "forecasts": [
@@ -173,7 +173,7 @@
       }
     ]
   },
-  "London, United Kingdom": {
+  "London,UnitedKingdom": {
     "name": "London, UK",
     "currentTemperature": 71,
     "forecasts": [
@@ -203,7 +203,7 @@
       }
     ]
   },
-  "Tokyo, Japan": {
+  "Tokyo,Japan": {
     "name": "Tokyo, Japan",
     "currentTemperature": 55,
     "forecasts": [
@@ -233,7 +233,7 @@
       }
     ]
   },
-  "Paris, France": {
+  "Paris,France": {
     "name": "Paris, France",
     "currentTemperature": 71,
     "forecasts": [
