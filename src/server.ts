@@ -18,11 +18,12 @@ app.get("/weather/location/:name", (req, res) => {
       if (!error) {
         const decodedName = decodeURI(req.params.name);
         const locationWithoutWhitespace = decodedName.replace(/\s/g, "");
+        const databaseKeyForLocation = locationWithoutWhitespace.toLowerCase();
 
         console.log(
           `Request for weather data from ${locationWithoutWhitespace}`
         );
-        const weatherData = JSON.parse(data)[locationWithoutWhitespace];
+        const weatherData = JSON.parse(data)[databaseKeyForLocation];
         if (weatherData) {
           setTimeout(
             () => res.send(JSON.parse(data)[locationWithoutWhitespace]),
