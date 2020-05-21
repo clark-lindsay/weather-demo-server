@@ -7,37 +7,37 @@
         "day": "Tuesday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Sunny"
+        "conditions": "Mostly Sunny"
       },
       {
         "day": "Wednesday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Cloudy"
+        "conditions": "Mostly Cloudy"
       },
       {
         "day": "Thursday",
         "high": 65,
         "low": 52,
-        "text": "Thunderstorms"
+        "conditions": "Thunderstorms"
       },
       {
         "day": "Friday",
         "high": 65,
         "low": 52,
-        "text": "Clear"
+        "conditions": "Clear"
       },
       {
         "day": "Saturday",
         "high": 65,
         "low": 52,
-        "text": "Clear"
+        "conditions": "Clear"
       },
       {
         "day": "Sunday",
         "high": 65,
         "low": 52,
-        "text": "Partly Sunny"
+        "conditions": "Partly Sunny"
       }
     ]
   },
@@ -49,37 +49,37 @@
         "day": "Tuesday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Sunny"
+        "conditions": "Mostly Sunny"
       },
       {
         "day": "Wednesday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Cloudy"
+        "conditions": "Mostly Cloudy"
       },
       {
         "day": "Thursday",
         "high": 65,
         "low": 52,
-        "text": "Thunderstorms"
+        "conditions": "Thunderstorms"
       },
       {
         "day": "Friday",
         "high": 65,
         "low": 52,
-        "text": "Clear"
+        "conditions": "Clear"
       },
       {
         "day": "Saturday",
         "high": 65,
         "low": 52,
-        "text": "Clear"
+        "conditions": "Clear"
       },
       {
         "day": "Sunday",
         "high": 65,
         "low": 52,
-        "text": "Partly Sunny"
+        "conditions": "Partly Sunny"
       }
     ]
   },
@@ -91,25 +91,25 @@
         "day": "Tuesday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Sunny"
+        "conditions": "Mostly Sunny"
       },
       {
         "day": "Wednesday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Sunny"
+        "conditions": "Mostly Sunny"
       },
       {
         "day": "Thursday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Sunny"
+        "conditions": "Mostly Sunny"
       },
       {
         "day": "Friday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Sunny"
+        "conditions": "Mostly Sunny"
       }
     ]
   },
@@ -121,25 +121,25 @@
         "day": "Tuesday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Sunny"
+        "conditions": "Mostly Sunny"
       },
       {
         "day": "Wednesday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Sunny"
+        "conditions": "Mostly Sunny"
       },
       {
         "day": "Thursday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Sunny"
+        "conditions": "Mostly Sunny"
       },
       {
         "day": "Friday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Sunny"
+        "conditions": "Mostly Sunny"
       }
     ]
   },
@@ -151,25 +151,25 @@
         "day": "Tuesday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Sunny"
+        "conditions": "Mostly Sunny"
       },
       {
         "day": "Wednesday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Sunny"
+        "conditions": "Mostly Sunny"
       },
       {
         "day": "Thursday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Sunny"
+        "conditions": "Mostly Sunny"
       },
       {
         "day": "Friday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Sunny"
+        "conditions": "Mostly Sunny"
       }
     ]
   },
@@ -181,25 +181,25 @@
         "day": "Tuesday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Sunny"
+        "conditions": "Mostly Sunny"
       },
       {
         "day": "Wednesday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Sunny"
+        "conditions": "Mostly Sunny"
       },
       {
         "day": "Thursday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Sunny"
+        "conditions": "Mostly Sunny"
       },
       {
         "day": "Friday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Sunny"
+        "conditions": "Mostly Sunny"
       }
     ]
   },
@@ -211,25 +211,25 @@
         "day": "Tuesday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Sunny"
+        "conditions": "Mostly Sunny"
       },
       {
         "day": "Wednesday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Sunny"
+        "conditions": "Mostly Sunny"
       },
       {
         "day": "Thursday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Sunny"
+        "conditions": "Mostly Sunny"
       },
       {
         "day": "Friday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Sunny"
+        "conditions": "Mostly Sunny"
       }
     ]
   },
@@ -241,25 +241,25 @@
         "day": "Tuesday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Sunny"
+        "conditions": "Mostly Sunny"
       },
       {
         "day": "Wednesday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Sunny"
+        "conditions": "Mostly Sunny"
       },
       {
         "day": "Thursday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Sunny"
+        "conditions": "Mostly Sunny"
       },
       {
         "day": "Friday",
         "high": 65,
         "low": 52,
-        "text": "Mostly Sunny"
+        "conditions": "Mostly Sunny"
       }
     ]
   }
