@@ -20,15 +20,11 @@ app.get("/weather/location/:name", (req, res) => {
         const locationWithoutWhitespace = decodedName.replace(/\s/g, "");
         const databaseKeyForLocation = locationWithoutWhitespace.toLowerCase();
 
-        console.log(
-          `Request for weather data from ${locationWithoutWhitespace}`
-        );
+        console.log(`Request for weather data from ${databaseKeyForLocation}`);
         const weatherData = JSON.parse(data)[databaseKeyForLocation];
+        console.log(weatherData);
         if (weatherData) {
-          setTimeout(
-            () => res.send(JSON.parse(data)[locationWithoutWhitespace]),
-            2000
-          );
+          setTimeout(() => res.send(weatherData), 2000);
         } else {
           defaultErrorStatement(Error("No data found with that location key."));
         }
