@@ -22,7 +22,6 @@ app.get("/weather/location/:name", (req, res) => {
 
         console.log(`Request for weather data from ${databaseKeyForLocation}`);
         const weatherData = JSON.parse(data)[databaseKeyForLocation];
-        console.log(weatherData);
         if (weatherData) {
           setTimeout(() => res.send(weatherData), 2000);
         } else {
